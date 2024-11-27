@@ -18,13 +18,13 @@
   margin-bottom: 40px;
 }
 
-.contatos-conteudo{
+.contatos-conteudo {
   display: flex;
   flex-direction: row;
   gap: 100px;
 }
 
-.contatos-conteudo > div{
+.contatos-conteudo>div {
   display: flex;
   flex-direction: column;
   gap: 32px
@@ -39,7 +39,7 @@
   transition: .3s;
 }
 
-.ctt:hover img{
+.ctt:hover img {
   border: 2px solid var(--border);
 }
 
@@ -63,7 +63,7 @@
 .up {
   padding: 16px;
   background-color: #203C4C;
-  position: absolute; 
+  position: absolute;
   bottom: 0px;
   right: 0px;
   display: flex;
@@ -84,22 +84,27 @@
   .ctt span {
     padding: 0px 16px;
   }
+
   .ctt img {
     width: 60px;
     height: auto;
   }
+
   .contatos {
     padding-top: 60px;
     padding-bottom: 100px;
   }
+
   .contatos h1 {
     font-size: 1.75rem;
     margin-bottom: 24px;
   }
-  .contatos-conteudo > div{
-    gap:20px;
+
+  .contatos-conteudo>div {
+    gap: 20px;
   }
-  .contatos-conteudo  > img {
+
+  .contatos-conteudo>img {
     display: none;
   }
 }

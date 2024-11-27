@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio de Fagner Lisboa, Desenvolvedor Front-End com experiência em Angular, HTML, CSS, JavaScript e mais.">
   <title>Portfólio | Fagner Lisboa</title>
-  <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
   <script>document.documentElement.className += ' js' </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rubik:wght@400;500;600&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <header class="header-bg">
-      <div class="header container">
-        <a href="./index.html"><img src="img/Logo FL.svg" alt="Logo Fagner" class="logoFl"></a>
-        <nav class="js-menu" data-menu="suave" id="nav">
-        <span id="btn-mobile"></span>
-          <ul class="navbar">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#conhecimentos">Conhecimentos</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  <header class="header">
+    <div class="container">
+      <a href="./index.html"><img src="img/Logo FL.svg" alt="Logo Fagner" class="logoFl"></a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir Menu">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#conhecimentos" class="nav-link">Conhecimentos</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#contatos" class="nav-link">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <main class="main-bg">
     <div class="main container" data-anima="scroll" id="inicio">
       <div class="text-hero">
@@ -33,119 +45,153 @@
         <h1 class="dev">Desenvolvedor</h1>
         <h1 class="front">Front End</h1>
         <p>Seja bem vindo(a) ao meu portfólio</p>
-        <button class="btn-download"><img src="img/baixar.svg" alt="baixar icon">Baixar CV</button>
+        <!-- <button class="btn-download"><img src="img/baixar.svg" alt="baixar icon">Baixar CV</button> -->
       </div>
       <div class="img-hero">
-        <img src="img/Illustração hero.png" alt="">
+        <img src="img/ilustracao.png" alt="">
       </div>
     </div>
   </main>
+
   <section class="links-bg">
     <div class="links container" data-anima="scroll">
-      <a href="https://www.linkedin.com/in/fagner-lisboa-dev/" class="linkedin" target="_blank">Linkedin <img src="img/links-down.svg" alt=""></a>
-      <a href="https://github.com/FagnerLisboa" class="github" target="_blank">Github <img src="img/links-down.svg" alt=""></a>
+      <a href="https://www.linkedin.com/in/fagner-lisboa-dev/" class="linkedin" target="_blank">Linkedin <img
+          src="img/links-down.svg" alt=""></a>
+      <a href="https://github.com/FagnerLisboa" class="github" target="_blank">Github <img src="img/links-down.svg"
+          alt=""></a>
     </div>
   </section>
+
   <section class="sobre-bg">
     <div class="sobre container " data-anima="scroll" id="sobre">
       <div class="sobre-text">
         <h1 class="title">Sobre mim</h1>
-        <p class="sobre-desc">Sou estudante do 1º período de  <span>Análise e Desenvolvimento de Sistemas</span>, pela Universidade Nove de Julho <span>(Uninove)</span>, paralelamente, estou me aprofundando na área de desenvolvimento web, atraves de cursos intensivos e projetos pessoais. Também tenho conhecimentos em Agular CLI. Estou em busca de uma oportunidade como estagiário ou dev jr.</p>
-        <button class="btn-download"><img src="img/baixar.svg" alt="baixar icon">Baixar CV</button>
+        <p class="sobre-desc">Engenheiro de Software,
+          especializado no desenvolvimento de soluções web personalizadas e leadpages atraentes e
+          funcionais. Com experiência prática em HTML5, CSS3, JavaScript e frameworks modernos como
+          Angular 2+, Bootstrap e Materialize,Figma crio projetos responsivos, escaláveis e otimizados para
+          conversão. Meu foco está em entregar resultados de alta qualidade que atendam às necessidades
+          específicas de cada cliente..</p>
+        <!-- <button class="btn-download"><img src="img/baixar.svg" alt="baixar icon">Baixar CV</button> -->
       </div>
       <div class="sobre-card">
-        <img src="img/card-sobre.png" alt="">
+        <img src="img/foto4.png" width="250px" alt="">
       </div>
       <img src="img/detalhe1.svg" alt="" class="detalhe1">
       <img src="img/detalhe2.svg" alt="" class="detalhe2">
     </div>
   </section>
-    <section class="skills-bg">
+
+  <section class="skills-bg">
     <div class="skills container" data-anima="scroll" id="conhecimentos">
       <h1>Conhecimentos</h1>
       <div class="skills-conteudo">
-            <div class="s">
-              <h2>html5</h2>
-              <p>Linguagem de marcação</p>
-              <img src="./img/html.svg" alt="html logo">
-            </div>
-            <div class="s">
-              <h2>css3</h2>
-              <p>Linguagem de estilos</p>
-              <img src="./img/css.svg" alt="css logo">
-            </div>
-            <div class="s">
-              <h2>javascript</h2>
-              <p>Linguagem de programação</p>
-              <img src="./img/javascript.svg" alt="javascript logo">
-            </div>
-            <div class="s">
-              <h2>framework</h2>
-              <p>Angular</p>
-              <img src="./img/Angular.svg" alt="sass logo">
-            </div>
-            <div class="s">
-              <h2>Github</h2>
-              <p>Repositório</p>
-              <img src="./img/github.svg" alt="sass logo">
-            </div>
+        <div class="s">
+          <h2>html5</h2>
+          <p>Linguagem de marcação</p>
+          <img src="./img/html.svg" alt="html logo">
+        </div>
+        <div class="s">
+          <h2>css3</h2>
+          <p>Linguagem de estilos</p>
+          <img src="./img/css.svg" alt="css logo">
+        </div>
+        <div class="s">
+          <h2>javascript</h2>
+          <p>Linguagem de programação</p>
+          <img src="./img/javascript.svg" alt="javascript logo">
+        </div>
+        <div class="s">
+          <h2>framework</h2>
+          <p>Angular</p>
+          <img src="./img/Angular.svg" alt="sass logo">
+        </div>
       </div>
     </div>
   </section>
+
   <section class="projetos-bg">
     <div class="projetos container" data-anima="scroll" id="projetos">
-      <h1>Projetos de estudo</h1>
+      <h1>Formulário</h1>
       <div class="projetos-conteudo">
         <div class="projeto">
-          <img src="img/portfólio.png" alt="">
-            <div class="p">
-              <div class="p1">
-                <h2>Portfólio</h2>
-                <p>-Html <br>-Css <br>-Javascript</p> 
-              </div>
-              <div class="p2">
-                <a href="" target="_blank">Repositório</a>
-              </div>
+          <img src="img/formulario.png" alt="">
+          <div class="p">
+            <div class="p1">
+              <h2>Formulário</h2>
+              <p>-Angular <br>-Bootstrap <br>-PostgreSQL</p>
             </div>
+            <div class="p2">
+              <a href="https://github.com/FagnerLisboa/custome-registration" target="_blank">Repositório</a>
+            </div>
+          </div>
         </div>
         <div class="projeto">
           <img src="img/café.png" alt="">
-            <div class="p">
-              <div class="p1">
-                <h2>Landing Page Code Café</h2>
-                <p>-Html <br>-Css</p> 
-              </div>
-              <div class="p2">
-                <a href="https://github.com/FagnerLisboa/landing-page-code-cafe" target="_blank">Repositório</a>
-                <a href="https://fagnerlisboa.github.io/landing-page-code-cafe/" target="_blank">Demo</a>
-              </div>
+          <div class="p">
+            <div class="p1">
+              <h2>Landing Page Code Café</h2>
+              <p>-Html <br>-Css</p>
             </div>
+            <div class="p2">
+              <a href="https://github.com/FagnerLisboa/landing-page-code-cafe" target="_blank">Repositório</a>
+              <a href="https://fagnerlisboa.github.io/landing-page-code-cafe/" target="_blank">Demo</a>
+            </div>
+          </div>
         </div>
         <div class="projeto">
           <img src="img/agência.png" alt="">
-            <div class="p">
-              <div class="p1">
-                <h2>Landing Page <br> Agência</h2>
-                <p>-Html <br>-Css <br>-Javascript</p> 
-              </div>
-              <div class="p2">
-                <a href="https://github.com/FagnerLisboa/projeto-landing-page" target="_blank">Repositório</a>
-                <a href="https://fagnerlisboa.github.io/projeto-landing-page/#" target="_blank">Demo</a>
-              </div>
+          <div class="p">
+            <div class="p1">
+              <h2>Landing Page <br> Agência</h2>
+              <p>-Html <br>-Css <br>-Javascript</p>
             </div>
+            <div class="p2">
+              <a href="https://github.com/FagnerLisboa/projeto-landing-page" target="_blank">Repositório</a>
+              <a href="https://fagnerlisboa.github.io/projeto-landing-page/#" target="_blank">Demo</a>
+            </div>
+          </div>
         </div>
         <div class="projeto">
-          <img src="img/previsao-tempo.png" alt="">
-            <div class="p">
-              <div class="p1">
-                <h2>Previsão<br> do tempo</h2>
-                <p>-Html <br>-Css <br>-Typescript</p> 
-              </div>
-              <div class="p2">
-                <a href="https://github.com/FagnerLisboa/time" target="_blank">Repositório</a>
-                <a href="" target="_blank">NULL</a>
-              </div>
+          <img src="img/ecommerce3.png" alt="">
+          <div class="p">
+            <div class="p1">
+              <h2>E-commerce<br></h2>
+              <p>-Angular <br>-ApiRest <br>-Typescript</p>
             </div>
+            <div class="p2">
+              <a href="" target="_blank">Repositório</a>
+              <a href="" target="_blank">DEMO</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <img src="img/portfolio.png" alt="">
+          <div class="p">
+            <div class="p1">
+              <h2>Portfólio<br></h2>
+              <p>-Angular <br>- Bootstrap<br>- EmailJS</p>
+            </div>
+            <div class="p2">
+              <a href="https://github.com/FagnerLisboa/portfolio-website?tab=readme-ov-file" target="_blank">Repositório</a>
+              <a href="https://fagnerlisboa.github.io/portfolio-website/" target="_blank">DEMO</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <img src="img/previsao-tempo.png" alt="">
+          <div class="p">
+            <div class="p1">
+              <h2>Previsão<br> do tempo</h2>
+              <p>-Html <br>-Css <br>-Typescript</p>
+            </div>
+            <div class="p2">
+              <a href="https://github.com/FagnerLisboa/time" target="_blank">Repositório</a>
+              <a href="" target="_blank">NULL</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -153,21 +199,16 @@
 
   <section class="contatos-bg">
     <div class="contatos container" data-anima="scroll" id="contatos">
-      <h1>Contatos</h1>
       <div class="contatos-conteudo">
         <img src="img/chat.svg" alt="">
         <div>
           <div class="ctt">
             <img src="img/email.svg" alt="">
-            <span>fnlisboa@gmail.com</span>
+            <span>fnlisboa.dev@gmail.com</span>
           </div>
           <a class="ctt" href="https://wa.me/5511982994580" target="_blank">
             <img src="img/whatsapp.svg" alt="">
-            <span>(11) 98299-4580</span>
-          </a>
-          <a class="ctt" href="https://www.linkedin.com/in/fagner-lisboa-dev/" target="_blank">
-            <img src="img/linkedin.svg" alt="">
-            <span>Linkedin.com/in/fagner-lisboa-dev</span>
+            <span>(11) 97953-1627</span>
           </a>
         </div>
       </div>
@@ -176,12 +217,15 @@
       </button>
     </div>
   </section>
-  <footer class="footer-bg"> 
+
+  <footer class="footer-bg">
     <div class="footer container">
       <img src="img/Logo CV.svg" alt="">
-      <span>Desenvolvido por Fagner Lisboa ©</span>
+      <span>&copy; Desenvolvido por Fagner Lisboa</span>
     </div>
   </footer>
+
   <script type="module" src="js/script.js"></script>
 </body>
+
 </html>

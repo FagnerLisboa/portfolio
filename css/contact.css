@@ -1,0 +1,168 @@
+.contact-header {
+  font: 500 2.5rem "Rubik", sans-serif;
+  color: var(--b1);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.color {
+  color: var(--c1);
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #f0f4f8;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #cbd5e1;
+}
+
+.input-line {
+  display: flex;
+  gap: 20px;
+}
+
+.input-name,
+.input-subject,
+.input-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #6b7280;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.input-name:focus,
+.input-subject:focus,
+.input-textarea:focus {
+  border-color: var(--c1);
+  outline: none;
+  background-color: #e2e8f0;
+}
+
+.input-textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.btn-primary {
+  padding: 12px;
+  background-color: #4299e1;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font: 500 1rem "Rubik", sans-serif;
+}
+
+.btn-primary:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #2b6cb0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-info-header p {
+  font: 500 1.5rem "Rubik", sans-serif;
+  color: var(--b1);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contact-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-info-content-line {
+  display: flex;
+  align-items: center;
+  background-color: #edf2f7;
+  padding: 16px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.contact-info-content-line:hover {
+  background-color: #e2e8f0;
+}
+
+.contact-info-content-line img {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  margin-right: 16px;
+  background-color: #a0aec0;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.contact-info-content-line:hover img {
+  border-color: var(--c1);
+}
+
+.contact-info-icon-text h6 {
+  font: 500 1rem "Rubik", sans-serif;
+  color: var(--b1);
+  margin-bottom: 4px;
+}
+
+.contact-info-icon-text p {
+  font: 400 0.875rem "Rubik", sans-serif;
+  color: #4a5568;
+  word-break: break-word;
+}
+
+@media (max-width: 767px) {
+  .contact-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .input-line {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contact-header {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .contact-info-icon-text h6 {
+    font-size: 0.875rem;
+  }
+
+  .contact-info-icon-text p {
+    font-size: 0.75rem;
+  }
+}

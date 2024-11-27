@@ -12,7 +12,6 @@
   padding-bottom: 120px;
 }
 
-
 .btn-download {
   background: linear-gradient(var(--a2), var(--a1));
   border: none;
@@ -38,9 +37,11 @@
   0% {
     box-shadow: 0px;
   }
+
   50% {
     box-shadow: 0px 0px 20px 0px #007AC199;
   }
+
   100% {
     box-shadow: 0px;
   }
@@ -51,19 +52,19 @@
   padding: 12px 38px;
 }
 
-.img-hero img{
+.img-hero img {
   width: 395px;
   height: 344px;
 }
 
-.text-hero h2{
+.text-hero h2 {
   margin-bottom: 12px;
   color: var(--nav);
   font: 400 1.125rem "Inter";
   letter-spacing: 0.02rem;
 }
 
-.text-hero h2 span{
+.text-hero h2 span {
   font: 500 1.25rem "Inter";
   color: var(--b1);
 }
@@ -80,7 +81,7 @@
   letter-spacing: .1rem;
   background-image: linear-gradient(to bottom, var(--a2), var(--a1));
   background-clip: text;
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -89,19 +90,23 @@
 }
 
 @keyframes animationName {
-0% {
-  transform: scale(1);
-}
-25% {
-  transform: scale(1.05);
-}
-50% {
-  transform: scale(1);
-}
-75% {
-  transform: scale(1.08);
-}
-100% {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.05);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.08);
+  }
+
+  100% {
     transform: scale(1);
   }
 }
@@ -116,17 +121,21 @@
   .main {
     flex-direction: column-reverse;
   }
+
   .text-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .text-hero h1 {
     text-align: center;
   }
+
   .img-hero img {
     max-height: 320px;
   }
+
   .text-hero h2 {
     margin-top: 32px;
   }
@@ -138,31 +147,37 @@
     width: auto;
     max-height: 260px;
   }
+
   .text-hero h1 {
     font-size: 2rem;
     line-height: 36px;
   }
+
   .front {
     margin-bottom: 16px;
   }
+
   .text-hero h2 {
     font-size: 1rem;
     margin-bottom: 8px;
     margin-top: 12px;
   }
-  .text-hero h2 span{
+
+  .text-hero h2 span {
     font-size: 1.125rem;
   }
+
   .text-hero p {
     font-size: 0.875rem;
     margin-bottom: 1.5rem;
     text-align: center;
   }
+
   .main {
     padding-top: 140px;
     padding-bottom: 68px;
   }
-  
+
 }
 
 @media(max-width:330px) {

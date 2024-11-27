@@ -79,10 +79,10 @@
 }
 
 .p1 p {
-font: 400 1rem "inter";
-color: var(--nav);
-margin-left: 8px;
-margin-top: 4px;
+  font: 400 1rem "inter";
+  color: var(--nav);
+  margin-left: 8px;
+  margin-top: 4px;
 }
 
 .p2 {
@@ -111,23 +111,27 @@ margin-top: 4px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .projetos h1 {
     font-size: 1.75rem;
     margin-bottom: 24px;
   }
+
   .projetos-conteudo {
-    gap:20px;
+    gap: 20px;
   }
 }
 
 @media(max-width:450px) {
   .projeto {
     width: 100%;
-  } 
+  }
+
   .p1 p {
     margin-left: 0px;
     font: 400 14px "inter";
   }
+
   .p {
     padding: 20px 28px;
   }
@@ -138,9 +142,11 @@ margin-top: 4px;
     font: 500 16px "rubik", sans-serif;
     text-align: center;
   }
+
   .p1 {
     align-items: center;
   }
+
   .p {
     padding: 16px 20px;
     flex-wrap: wrap;
